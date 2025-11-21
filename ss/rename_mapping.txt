@@ -1,0 +1,20 @@
+# Mapping nama file berdasarkan screenshot monitoring:
+# 
+# Port 9870 (HDFS NameNode UI):
+# - Hadoop DataNode Information
+# - HDFS Overview
+#
+# Port 8088 (YARN ResourceManager UI):
+# - YARN Cluster Nodes Overview
+#
+# Port 8080 (Spark Master UI):
+# - Spark Master Status & Workers
+#
+# Port 4040 (Spark Driver UI):
+# - Spark Application Jobs
+# - Spark Application Stages
+#
+# Visualizations (dari output):
+# - document_topic_distribution.png (heatmap)
+
+ls -1
