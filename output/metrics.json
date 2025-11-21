@@ -1,0 +1,23 @@
+{
+  "vocab_size": 25000,
+  "num_docs": 740241,
+  "num_topics": 20,
+  "stopwords_count": 955,
+  "training_time": 218.07463932037354,
+  "log_likelihood": -922759573.4047275,
+  "log_perplexity": 8.215785810709589,
+  "config": {
+    "hdfs_path": "hdfs://hadoop-master:9000/input/wikipedia_id_dataset.csv",
+    "output_dir": "/app/output",
+    "min_text_length": 100,
+    "max_text_length": 50000,
+    "min_tokens": 15,
+    "num_topics": 20,
+    "max_iterations": 25,
+    "vocab_size": 25000,
+    "min_df": 5,
+    "max_df": 0.85,
+    "terms_per_topic": 15,
+    "seed": 42
+  }
+}
